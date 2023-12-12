@@ -1,13 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="./src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <title>Reyana Velasquez</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/app.css">
+</head>
+<body>
+  <!-- nav/header -->
+  <header class="nav-wrapper">
+    <nav class="nav">
+      <div class="nav-logo">RMV</div>
+      <ul class="nav-items-container">
+        <li class="nav-item">
+          <a href="#bio">Bio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#photography">Photography</a>
+        </li>
+        <li class="nav-item">
+          <a href="#video">Video</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- content -->
+  <main id="bio" style="display: flex; align-items: center; height: 100vh; background-color: #9ebaaa; width: 100%; z-index: 10; ">
+    <div style="margin-left: 5rem; height: inherit; width: inherit; display: flex; align-items: center;">
+      <!-- left -->
+      <div style="width: 60%;">
+        <h1 style="font-size: 3rem; display:flex; justify-content: left; color: #1d2020; margin-bottom: 1rem;">
+          Reyana Velasquez
+        </h1>
+        <p style="color: #252d2e; font-size: 18px">
+          A musical scorer, photographer, and assistant director.
+        </p>
+      </div>
+      <!-- right -->
+      <div style="color:white; width: 40%; overflow: hidden;">
+        <div style="height: 19rem; margin-left: 7rem; background-color: #bc6873"></div>
+        <img src="./assets/images/profile.png" style="height: 50rem; border-radius: 4px;"/>
+      </div>
+    </div>
+  </main>
+
+  <section id="photography" style="height: 100vh; background-color: #f5f7f7; margin-top: 8rem;">
+    <h2 style="font-size: 2.5rem; display: flex; justify-content: center;">Photography</h2>
+  </section>
+
+  <!-- footer -->
+  <footer>
+  </footer>
+
+  <!-- scripts -->
+ <script src="./scripts/app.js"></script> 
+</body>
 </html>

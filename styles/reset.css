@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('../assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url('../assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf');
+}
+
+/* ::selection { */
+/*   background-color: $grey; */
+/*   color: $white; */
+/* } */
+
+html {
+  scroll-behavior: smooth;
+  height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  font-family: "Nunito Sans", sans-serif;
+  position: relative;
+}
+
+section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 0.9;
+  color: #252d2e;
+}
