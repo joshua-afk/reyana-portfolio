@@ -11,56 +11,100 @@
   <!-- styles -->
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/app.css">
+  <link rel="stylesheet" href="./styles/tailwind/output.css">
 </head>
 <body>
   <!-- nav/header -->
-  <header class="nav-wrapper">
-    <nav class="nav">
-      <div class="nav-logo">RMV</div>
-      <ul class="nav-items-container">
-        <li class="nav-item">
-          <a href="#bio">Bio</a>
+  <header class="absolute z-20 h-28 w-full">
+    <nav class="flex h-full items-center" style="padding: 0px 2rem;">
+      <div class="grow text-gray-950">RMV</div>
+      <ul class="flex">
+        <li class="mr-6">
+          <a href="#bio" style="color: #FEEEDC;">Bio</a>
         </li>
-        <li class="nav-item">
-          <a href="#photography">Photography</a>
+        <li class="mr-6">
+          <a href="#photography" style="color: #FEEEDC;">Photography</a>
         </li>
-        <li class="nav-item">
-          <a href="#video">Video</a>
+        <li class="mr-6">
+          <a href="#video" style="color: #FEEEDC;">Video</a>
         </li>
-        <li class="nav-item">
-          <a href="#contacts">Contacts</a>
+        <li class="mr-6">
+          <a href="#contacts" style="color: #FEEEDC;">Contacts</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <!-- content -->
-  <main id="bio" style="display: flex; align-items: center; height: 100vh; background-color: #9ebaaa; width: 100%; z-index: 10; ">
-    <div style="margin-left: 5rem; height: inherit; width: inherit; display: flex; align-items: center;">
-      <!-- left -->
-      <div style="width: 60%;">
-        <h1 style="font-size: 3rem; display:flex; justify-content: left; color: #1d2020; margin-bottom: 1rem;">
+  <!-- <main id="bio" class="absolute flex flex-col items-center h-screen w-full z-10" style="margin-top: -7rem;"> -->
+  <main id="bio" class="absolute flex flex-col items-center h-screen w-full z-10">
+    <div class="flex h-full w-full z-10">
+      <div class="w-2/5 h-full" style="background-color: #d8cbbb;"></div>
+      <div class="w-3/5 h-full" style="background-color: #212427;"></div>
+    </div>
+
+    <div class="absolute flex w-full z-20 left-0" style="top: 8.7rem;">
+      <div style="width: 47rem;">
+        <img src="./assets/images/profile-2.JPG"/>
+      </div>
+      <div style="padding-top: 10rem; margin-left: -3rem;">
+        <h1 class="flex" style="font-size: 3rem; justify-content: left; color: #FEEEDC; margin-bottom: 1rem;">
           Reyana Velasquez
         </h1>
-        <p style="color: #252d2e; font-size: 18px">
+        <p style="color: #CBBEAF; font-size: 21px">
           A musical scorer, photographer, and assistant director.
         </p>
-      </div>
-      <!-- right -->
-      <div style="color:white; width: 40%; overflow: hidden;">
-        <div style="height: 19rem; margin-left: 7rem; background-color: #bc6873"></div>
-        <img src="./assets/images/profile.png" style="height: 50rem; border-radius: 4px;"/>
       </div>
     </div>
   </main>
 
-  <section id="photography" style="height: 100vh; background-color: #f5f7f7; margin-top: 8rem;">
-    <h2 style="font-size: 2.5rem; display: flex; justify-content: center;">Photography</h2>
+  <!-- <section id="photography" style="padding-top: 100vh; height: 100vh; background-color: #212427;"> -->
+  <section id="photography" style="padding-top: 100vh; background-color: #d8cbbb;">
+    <h1>hello world</h1>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
   </section>
+  
 
-  <!-- footer -->
-  <footer>
-  </footer>
+  <!-- content -->
+  <!-- <main id="bio" style="display: flex; align-items: center; height: 100vh; background-color: #9ebaaa; width: 100%; z-index: 10; "> -->
+  <!-- <main id="bio" class="flex items-center h-screen w-full z-10" style="background-color: #9ebaaa;"> -->
+  <!--   <div class="flex w-full" style="margin-left: 5rem; height: inherit; width: inherit; display: flex; align-items: center;"> -->
+  <!--     <!-- left -->
+  <!--     <div style="width: 60%;"> -->
+  <!--       <h1 style="font-size: 3rem; display:flex; justify-content: left; color: #1d2020; margin-bottom: 1rem;"> -->
+  <!--         Reyana Velasquez -->
+  <!--       </h1> -->
+  <!--       <p style="color: #252d2e; font-size: 18px"> -->
+  <!--         A musical scorer, photographer, and assistant director. -->
+  <!--       </p> -->
+  <!--     </div> -->
+  <!--     <!-- right -->
+  <!--     <!-- <div style="color:white; width: 40%; overflow: hidden;"> -->
+  <!--       <!-- <div style="height: 19rem; margin-left: 7rem; background-color: #bc6873"></div> -->
+  <!--       <!-- <img src="./assets/images/profile.png" style="height: 50rem; border-radius: 4px;"/> -->
+  <!--       <img src="./assets/images/profile-2.JPG" style="height: 50rem; border-radius: 4px;"/> -->
+  <!--     <!-- </div> -->
+  <!--   </div> -->
+  <!-- </main> -->
+
+  <!-- <section id="photography" style="height: 100vh; background-color: #f5f7f7;"> -->
+  <!--   <div class="flex flex-row h-full" style="padding-top: 8rem; background-color: #f5f7f7;"> -->
+  <!--     <div class="h-full w-1/5" style="background-color: red;"> -->
+  <!--       <h2 style="font-size: 2.5rem; transform: rotate(180deg); writing-mode: vertical-rl; text-orientation: mixed; white-space: nowrap;">Photography</h2> -->
+  <!--     </div> -->
+  <!--     <div class="h-full w-4/5" style="background-color: blue;"> -->
+  <!--     </div> -->
+  <!--   </div> -->
+  <!-- </section> -->
+  <!---->
+  <!-- <!-- footer -->
+  <!-- <footer> -->
+  <!-- </footer> -->
 
   <!-- scripts -->
  <script src="./scripts/app.js"></script> 

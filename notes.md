@@ -1,5 +1,14 @@
 ## TODO 
 
+font: #FEEEDC;
+
+#2a322e
+#d8cbbb
+#212427
+#8d806f
+
+content: [],
+
 - [ ] do gradient every next section
 - [ ] SEO Optimization
 
