@@ -17,16 +17,19 @@
   <!-- nav/header -->
   <header class="absolute z-20 h-28 w-full">
     <nav class="flex h-full items-center" style="padding: 0px 2rem;">
-      <div class="grow text-gray-950">RMV</div>
+      <div class="grow text-gray-950" style="font-family: Montserrat; font-weight: 900; letter-spacing: 2px; font-size: 1.2rem;">RMV</div>
       <ul class="flex">
         <li class="mr-6">
-          <a href="#bio" style="color: #FEEEDC;">Bio</a>
+          <!-- <a href="#bio" style="color: #FEEEDC;">Home</a> -->
+          <!-- <a href="/" style="color: #FEEEDC;">Home</a> -->
+          <a href="./index.html" style="color: #FEEEDC;">Home</a>
         </li>
         <li class="mr-6">
-          <a href="#photography" style="color: #FEEEDC;">Photography</a>
+          <!-- <a href="/photography/" style="color: #FEEEDC;">Photography</a> -->
+          <a href="./photography/index.html" style="color: #FEEEDC;">Photography</a>
         </li>
         <li class="mr-6">
-          <a href="#video" style="color: #FEEEDC;">Video</a>
+          <a href="#video-projects" style="color: #FEEEDC;">Video Projects</a>
         </li>
         <li class="mr-6">
           <a href="#contacts" style="color: #FEEEDC;">Contacts</a>
@@ -58,17 +61,64 @@
   </main>
 
   <!-- <section id="photography" style="padding-top: 100vh; height: 100vh; background-color: #212427;"> -->
-  <section id="photography" style="padding-top: 100vh; background-color: #d8cbbb;">
-    <h1>hello world</h1>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+  <section style="padding-top: 100vh; background-color: #d8cbbb;">
+    <h2 id="photography" class="mt-12 mb-3 text-center" style="font-size: 2.3rem; color: #212427; letter-spacing: .4rem;">
+      Photography
+    </h2>
+
+    <p class="mb-8 text-center" style="color: #41474d; font-size: 19px">Things I've captured.</p>
+
+    <ul style="column-count: 3;">
+      <li class="mb-4">
+        <img class="" src="./assets/images/PHOTOG1/1623085527778.jpg"/>
+      </li>
+      <li class="mb-4">
+          <img class="" src="./assets/images/PHOTOG1/1700130462325 copy.png"/>
+      </li>
+      <li class="mb-4">
+        <img class="" src="./assets/images/PHOTOG1/1700130462691 copy.png"/>
+      </li>
+      <li class="mb-4">
+        <img class="" src="./assets/images/PHOTOG1/1700130462969.png"/>
+      </li>
+      <li class="mb-4">
+        <img class="" src="./assets/images/PHOTOG1/1700130463153.png"/>
+      </li>
+      <li class="mb-4">
+        <img class="" src="./assets/images/PHOTOG1/dagat.JPG"/>
+      </li>
+    </ul>
+
+    <div class="w-full pb-4 text-center">
+      <a href="./photography/index.html">SEE MORE</a>
+    </div>
   </section>
   
+  <section style="height: 100vh;">
+    <h2 id="video-projects" class="mt-12 mb-3 text-center" style="font-size: 2.3rem; color: #212427; letter-spacing: .4rem;">
+      Video Projects
+    </h2>
+    <!-- <p class="mb-8 text-center" style="color: #41474d; font-size: 19px">Things I've captured.</p> -->
+
+    <ul class="grid grid-cols-3 gap-3">
+      <li>
+        <iframe
+          width="100%"
+          height="380"
+          src="https://www.youtube.com/embed/a3ICNMQW7Ok"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+    </ul>
+  </section>
+
 
   <!-- content -->
   <!-- <main id="bio" style="display: flex; align-items: center; height: 100vh; background-color: #9ebaaa; width: 100%; z-index: 10; "> -->
