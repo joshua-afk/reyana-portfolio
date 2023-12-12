@@ -1,2 +1,6 @@
-notes.md
 node_modules/
+
+notes.md
+package-lock.json
+package.json
+tailwind.config.js
