@@ -1,3 +1,13 @@
+.see-more {
+  color: #212427;
+  border-bottom: 1px solid #212427;
+}
+
+.see-more:hover {
+  color: #41474d;
+  border-bottom: 1px solid #212427;
+}
+
 /* .nav-wrapper { */
 /*   z-index: 20; */
 /*   position: absolute; */
