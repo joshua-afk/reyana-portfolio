@@ -9,24 +9,26 @@
   <title>Reyana Velasquez</title>
 
   <!-- styles -->
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/app.css">
-  <link rel="stylesheet" href="./styles/tailwind/output.css">
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/app.css">
+  <link rel="stylesheet" href="../styles/tailwind/output.css">
 </head>
 <body>
   <!-- nav/header -->
   <header class="absolute z-20 h-28 w-full">
     <nav class="flex h-full items-center" style="padding: 0px 2rem;">
-      <div class="grow text-gray-950" style="font-family: Montserrat; font-weight: 900; letter-spacing: 2px; font-size: 1.2rem;">RM+V</div>
+      <div class="grow text-gray-950" style="font-family: Montserrat; font-weight: 900; letter-spacing: 2px; font-size: 1.2rem; color: #FEEEDC;">RMV</div>
       <ul class="flex">
         <li class="mr-6">
-          <a href="./index.html" style="color: #FEEEDC;">Home</a>
+          <!-- <a href="#bio" style="color: #FEEEDC;">Bio</a> -->
+          <a href="../index.html" style="color: #FEEEDC;">Home</a>
         </li>
         <li class="mr-6">
+          <!-- <a href="/photography/" style="color: #FEEEDC;">Photography</a> -->
           <a href="./photography/index.html" style="color: #FEEEDC;">Photography</a>
         </li>
         <li class="mr-6">
-          <a href="./video-projects/index.html" style="color: #FEEEDC;">Video Projects</a>
+          <a href="#video-projects" style="color: #FEEEDC;">Video Projects</a>
         </li>
         <li class="mr-6">
           <a href="#contacts" style="color: #FEEEDC;">Contacts</a>
@@ -35,66 +37,17 @@
     </nav>
   </header>
 
-  <main id="bio" class="absolute flex flex-col items-center h-screen w-full z-10">
-    <div class="flex h-full w-full z-10">
-      <div class="w-2/5 h-full" style="background-color: #d8cbbb;"></div>
-      <div class="w-3/5 h-full" style="background-color: #212427;"></div>
-    </div>
-
-    <div class="absolute flex w-full z-20 left-0" style="bottom: 0;">
-      <div style="width: 47rem;">
-        <img src="./assets/images/profile-2.JPG"/>
-      </div>
-      <div style="padding-top: 10rem; margin-left: -3rem;">
-        <h1 class="flex" style="font-size: 3rem; justify-content: left; color: #FEEEDC; margin-bottom: 1rem;">
-          Reyana Velasquez
-        </h1>
-        <p style="color: #CBBEAF; font-size: 21px">
-          A photographer, videographer, and musical scorer.
-        </p>
-      </div>
-    </div>
-  </main>
-
-  <section style="padding-top: 100vh; background-color: #d8cbbb;">
-    <h2 id="photography" class="mt-12 mb-3 text-center" style="font-size: 2.3rem; color: #212427; letter-spacing: .4rem;">
-      Photography
-    </h2>
-
-    <p class="mb-8 text-center" style="color: #41474d; font-size: 19px">Things I've captured.</p>
-
-    <ul class="mx-4" style="column-count: 3;">
-      <li class="mb-4">
-        <img class="" src="./assets/images/PHOTOG1/1623085527778.jpg"/>
-      </li>
-      <li class="mb-4">
-          <img class="" src="./assets/images/PHOTOG1/1700130462325 copy.png"/>
-      </li>
-      <li class="mb-4">
-        <img class="" src="./assets/images/PHOTOG1/1700130462691 copy.png"/>
-      </li>
-      <li class="mb-4">
-        <img class="" src="./assets/images/PHOTOG1/1700130462969.png"/>
-      </li>
-      <li class="mb-4">
-        <img class="" src="./assets/images/PHOTOG1/1700130463153.png"/>
-      </li>
-      <li class="mb-4">
-        <img class="" src="./assets/images/PHOTOG1/dagat.JPG"/>
-      </li>
-    </ul>
-
-    <div class="w-full pb-4 text-center">
-      <a class="see-more" href="./photography/index.html">SEE MORE</a>
-    </div>
-  </section>
-  
-  <section>
-    <h2 id="video-projects" class="mt-12 mb-3 text-center" style="font-size: 2.3rem; color: #212427; letter-spacing: .4rem;">
+  <section id="bio" class="flex flex-col items-center w-full z-10" style="background-color: #212427">
+    <h2 class="mb-3 text-center" style="margin-top: 12rem; margin-bottom: 2rem; font-size: calc(25px + 4vw); color: #FEEEDC; letter-spacing: .4rem;">
       Video Projects
     </h2>
-    <p class="mb-8 text-center" style="color: #41474d; font-size: 19px">Videos I've been part with.</p>
+    <p class="mb-20 text-center" style="color: #CBBEAF; font-size: 25px">
+      Videos I've been part with.
+    </p>
+  </section>
 
+  <main class="pb-3 " style="background-color: #212427;">
+    <!-- <ul class="mx-4" style="column-count: 3;"> -->
     <ul class="mx-4 grid grid-cols-3 gap-3">
       <li>
         <iframe
@@ -126,13 +79,30 @@
           allowfullscreen>
         </iframe>
       </li>
+      <li>
+        <iframe
+          width="100%"
+          height="350"
+          src="https://www.youtube.com/embed/awp9YQFDpC0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </li>
+      <li>
+        <iframe
+          width="100%"
+          height="350"
+          src="https://www.youtube.com/embed/ZCtmJUYdiOU"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </li>
     </ul>
-    <div class="w-full py-4 text-center">
-      <a class="see-more" href="./video-projects/index.html">SEE MORE</a>
-    </div>
-  </section>
+  </main>
 
-  <footer id="contacts" class="flex h-1/2">
+  <footer id="contacts" class="flex h-1/2" style="border-top: 2px solid white">
     <div class="w-1/5 h-inherit" style="background-color: #d8cbbb;">
       <h2 style="color: #212427; font-size: 3.5rem; margin-left: 2rem; margin-top: 11.3rem; margin-bottom: 1rem;">RM + V</h2>
       <div style="border-top: 2px solid #212427; margin-left: 2rem"></div>
@@ -165,6 +135,6 @@
   </footer>
 
   <!-- scripts -->
- <script src="./scripts/app.js"></script> 
+ <script src="../scripts/app.js"></script> 
 </body>
 </html>
