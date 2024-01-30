@@ -2,23 +2,24 @@
   margin: 0;
   padding: 0;
 }
+
 @font-face {
   font-family: Montserrat;
-  src: url('../assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  src: url('../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Montserrat;
-  src: url('../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('truetype');
+  src: url('../../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('truetype');
   font-weight: bolder;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Nunito Sans";
-  src: url('../assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf');
+  src: url('../../assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf');
 }
 
 /* ::selection { */
